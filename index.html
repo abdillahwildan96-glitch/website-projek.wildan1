@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abdillah Wildan Nigara – Portofolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">AWN<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#education">Pendidikan</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">Tentang</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#projects">Proyek</a>
+      <a href="#education">Pendidikan</a>
+      <a href="#contact">Kontak</a>
+    </div>
+  </nav>
+
+  <!-- SECTION 1: HERO -->
+  <section id="hero">
+    <div class="hero-bg-shape"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Halo, saya</p>
+        <h1 class="hero-name">Abdillah<br><span>Wildan Nigara</span></h1>
+        <p class="hero-sub">Siswa RPL · Web Developer Pemula · Penggemar Kode</p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary">Lihat Proyek</a>
+          <a href="#contact" class="btn-outline">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="hero-img-wrap">
+        <div class="hero-img-frame">
+          <img
+            src="C:\Users\LENOVO1\OneDrive\Gambar\WhatsApp Image 2026-05-17 at 21.15.39.jpeg"
+            class="hero-img"
+          />
+          <div class="hero-img-badge">
+            <i class="fa-solid fa-code"></i>
+            <span>RPL Student</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint">
+      <span>Gulir ke bawah</span>
+      <i class="fa-solid fa-arrow-down"></i>
+    </a>
+  </section>
+
+  <!-- SECTION 2: ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label">01 — Tentang Saya</div>
+      <div class="about-grid">
+        <div class="about-img-col">
+          <div class="about-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=600&fit=crop"
+              alt="Coding"
+              class="about-img"
+            />
+            <div class="about-img-tag">
+              <i class="fa-solid fa-laptop-code"></i> Coding Enthusiast
+            </div>
+          </div>
+        </div>
+        <div class="about-text-col">
+          <h2 class="section-title">Siapa Saya?</h2>
+          <p>
+            Nama saya <strong>Abdillah Wildan Nigara</strong>, siswa kelas 10 di
+            <strong>SMKN 2 Kota Mojokerto</strong> jurusan
+            <strong>Rekayasa Perangkat Lunak (RPL)</strong>.
+          </p>
+          <p>
+            Saya mulai belajar pemrograman sejak masuk SMK dan sangat tertarik
+            dengan dunia pengembangan web. Bagi saya, baris kode bukan sekadar
+            tulisan — tapi cara untuk membuat sesuatu yang nyata dan bisa dipakai
+            orang lain.
+          </p>
+          <p>
+            Di waktu luang saya suka bereksperimen membuat tampilan web, belajar
+            Python, dan mengikuti perkembangan dunia teknologi.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Proyek Selesai</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">2</span>
+              <span class="stat-label">Bahasa Pemrograman</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">10</span>
+              <span class="stat-label">Kelas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label">02 — Keahlian</div>
+      <h2 class="section-title">Yang Saya Kuasai</h2>
+      <p class="section-desc">Berikut teknologi dan tools yang saya pelajari selama di RPL.</p>
+
+      <div class="skills-grid">
+
+        <div class="skill-card" data-delay="0">
+          <div class="skill-icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"/>
+          </div>
+          <h3>HTML5</h3>
+          <p>Dasar struktur halaman web yang saya pelajari pertama kali.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+        </div>
+
+        <div class="skill-card" data-delay="100">
+          <div class="skill-icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"/>
+          </div>
+          <h3>CSS3</h3>
+          <p>Mendesain tampilan web agar terlihat rapi dan menarik.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+        </div>
+
+        <div class="skill-card" data-delay="200">
+          <div class="skill-icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/>
+          </div>
+          <h3>JavaScript</h3>
+          <p>Membuat interaksi dan logika pada halaman web.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+        </div>
+
+        <div class="skill-card" data-delay="300">
+          <div class="skill-icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap"/>
+          </div>
+          <h3>Bootstrap</h3>
+          <p>Framework CSS untuk mempercepat pembuatan tampilan responsif.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+        </div>
+
+        <div class="skill-card" data-delay="400">
+          <div class="skill-icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
+          </div>
+          <h3>Python</h3>
+          <p>Belajar logika pemrograman dan membuat aplikasi sederhana.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+        </div>
+
+        <div class="skill-card" data-delay="500">
+          <div class="skill-icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"/>
+          </div>
+          <h3>Git</h3>
+          <p>Mengelola versi kode dan kolaborasi bersama teman.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="55"></div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label">03 — Proyek</div>
+      <h2 class="section-title">Hasil Karya Saya</h2>
+      <p class="section-desc">Beberapa proyek yang pernah saya kerjakan selama belajar di kelas.</p>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=600&h=380&fit=crop"
+              alt="Toko Online Bootstrap"
+              class="project-img"
+            />
+            <div class="project-overlay">
+              <span class="project-tag">Bootstrap · HTML · CSS</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Website Toko Online</h3>
+            <p>
+              Website toko online yang dibangun menggunakan Bootstrap 5. Menampilkan
+              katalog produk, keranjang belanja sederhana, dan halaman checkout.
+              Responsif di semua ukuran layar.
+            </p>
+            <div class="project-tech">
+              <span>Bootstrap</span><span>HTML</span><span>CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img
+              src="https://user-images.githubusercontent.com/119470539/218087906-59c1cf81-0005-4799-9a78-211b0ba6c81e.png"
+              alt="Kasir Bank Python"
+              class="project-img"
+            />
+            <div class="project-overlay">
+              <span class="project-tag">Python · CLI</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Aplikasi Kasir Bank (Python)</h3>
+            <p>
+              Program kasir perbankan berbasis terminal menggunakan Python. Fitur
+              meliputi setor tunai, tarik tunai, cek saldo, dan riwayat transaksi
+              dengan penyimpanan data sederhana.
+            </p>
+            <div class="project-tech">
+              <span>Python</span><span>OOP</span><span>CLI</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img
+              src="https://tse3.mm.bing.net/th/id/OIP.YScWhFzbvPleekoVfrxOjgAAAA?pid=Api&h=220&P=0"
+              alt="Kalkulator JavaScript"
+              class="project-img"
+            />
+            <div class="project-overlay">
+              <span class="project-tag">JavaScript · DOM</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Kalkulator Interaktif (JS)</h3>
+            <p>
+              Kalkulator berbasis web menggunakan JavaScript murni. Menerapkan
+              manipulasi DOM, event listener, dan logika perhitungan dasar yang
+              diajarkan di kelas RPL semester satu.
+            </p>
+            <div class="project-tech">
+              <span>JavaScript</span><span>DOM</span><span>HTML/CSS</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 5: EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <div class="section-label">04 — Pendidikan</div>
+      <h2 class="section-title">Latar Belakang</h2>
+
+      <div class="edu-timeline">
+
+        <div class="edu-item active">
+          <div class="edu-dot"></div>
+          <div class="edu-card">
+            <div class="edu-header">
+              <img
+                src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=80&h=80&fit=crop"
+                alt="SMKN 2 Mojokerto"
+                class="edu-logo"
+              />
+              <div>
+                <h3>Pendidikan SMK</h3>
+                <span class="edu-year">2025 – Sekarang</span>
+              </div>
+            </div>
+            <p class="edu-jurusan"><i class="fa-solid fa-microchip"></i> Rekayasa Perangkat Lunak (RPL)</p>
+            <p>
+              Sedang menempuh pendidikan di SMK NEGRI 2 KOTA MOJOKERTO di kelas 10 rekayasa perangkat lunak(RPL) 1. mempelajari pembuatan website dasar, python, desain ui/ux dasar, dan basis data dasar. memiliki sebuah mimpi untuk menjadi progamer profesional.
+            </p>
+            <div class="edu-tags">
+              <span>Web Development</span>
+              <span>Python</span>
+              <span>Algoritma</span>
+              <span>Database</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-card">
+            <div class="edu-header">
+              <img
+                src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=80&h=80&fit=crop"
+                alt="SMP"
+                class="edu-logo"
+              />
+              <div>
+                <h3>pendidikan SMP</h3>
+                <span class="edu-year">2021 – 2024</span>
+              </div>
+            </div>
+            <p>
+              Menyelesaikan pendidikan SMP dan mulai tertarik pada dunia komputer dan
+              teknologi. ada niatan untuk masuk ke jurusan IT karena perkembangan zaman dan tuntutan kebutuhn
+              di masa depan mempengaruhi jalan karir saya, oleh karena itu saya akan masuk ke jurusan IT untuk jenjang selanjutnya.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 6: CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label">05 — Kontak</div>
+      <h2 class="section-title">Hubungi Saya</h2>
+      <p class="section-desc">Punya pertanyaan atau ingin berkolaborasi? Jangan ragu untuk menghubungi saya.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <span class="contact-label">Email</span>
+              <a href="mailto:wildan@email.com">nigaracode@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <span class="contact-label">Lokasi</span>
+              <span>Kota Mojokerto, Jawa Timur</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-school"></i></div>
+            <div>
+              <span class="contact-label">Sekolah</span>
+              <span>SMKN 2 Kota Mojokerto</span>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="#" class="social-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Nama</label>
+            <input type="text" id="name" placeholder="Nama kamu" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="email@kamu.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Pesan</label>
+            <textarea id="message" rows="5" placeholder="Tulis pesanmu di sini..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full">
+            <i class="fa-solid fa-paper-plane"></i> Kirim Pesan
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fa-solid fa-circle-check"></i> Pesan berhasil dikirim!
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p>© 2025 <strong>Abdillah Wildan Nigara</strong>. Siswa RPL SMKN 2 Kota Mojokerto.</p>
+      <p class="footer-quote">Dibuat dengan <i class="fa-solid fa-heart"></i> dan banyak kopi</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
